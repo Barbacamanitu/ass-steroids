@@ -19,6 +19,8 @@ class Game
         Timestep mTimestep;
         void processEvents();
 
+		sf::CircleShape myCircle;
+		float speed;
 
 };
 
