@@ -3,6 +3,7 @@
 
 #include <Timing/Timestep.h>
 #include <SFML/Graphics.hpp>
+#include "GameObjects/Spaceship.h"
 class Game
 {
     public:
@@ -18,9 +19,7 @@ class Game
         sf::RenderWindow gameWindow;
         Timestep mTimestep;
         void processEvents();
-
-		sf::CircleShape myCircle;
-		float speed;
+		Spaceship ship;
 
 };
 

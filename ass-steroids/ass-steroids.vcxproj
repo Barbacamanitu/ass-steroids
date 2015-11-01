@@ -155,6 +155,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Game.h" />
+    <ClInclude Include="include\GameObjects\Spaceship.h" />
     <ClInclude Include="include\Math\VectorMath.h" />
     <ClInclude Include="include\Render\RenderMath.h" />
     <ClInclude Include="include\Timing\Timestep.h" />
@@ -166,6 +167,7 @@
     <ClCompile Include="src\Game.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="src\GameObjects\Spaceship.cpp" />
     <ClCompile Include="src\Math\VectorMath.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
