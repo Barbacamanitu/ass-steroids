@@ -54,7 +54,7 @@ void Game::render(const float alpha)
 
 void Game::update(const float dt)
 {
-	ship.rotate(90 * dt);
+	ship.Update(dt);
 }
 
 
