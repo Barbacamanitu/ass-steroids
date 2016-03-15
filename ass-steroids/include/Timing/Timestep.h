@@ -7,7 +7,7 @@
 class Timestep
 {
     public:
-        const float TIMESTEP = 1/60.f;
+        const float TIMESTEP = 1/30.f;
         Timestep();
         virtual ~Timestep();
         void startLoop();

@@ -156,7 +156,12 @@
   <ItemGroup>
     <ClInclude Include="include\Game.h" />
     <ClInclude Include="include\GameObjects\Spaceship.h" />
+    <ClInclude Include="include\GameObjects\ThrusterParticleSystem.h" />
     <ClInclude Include="include\Math\VectorMath.h" />
+    <ClInclude Include="include\Particles\ColorDistribution.h" />
+    <ClInclude Include="include\Particles\ParticleEmitter.h" />
+    <ClInclude Include="include\Particles\ScalarDistribution.h" />
+    <ClInclude Include="include\Particles\VectorDistribution.h" />
     <ClInclude Include="include\Render\RenderMath.h" />
     <ClInclude Include="include\Timing\Timestep.h" />
     <ClInclude Include="stdafx.h" />
@@ -168,9 +173,13 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="src\GameObjects\Spaceship.cpp" />
+    <ClCompile Include="src\GameObjects\ThrusterParticleSystem.cpp" />
     <ClCompile Include="src\Math\VectorMath.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="src\Particles\ParticleEmitter.cpp" />
+    <ClCompile Include="src\Particles\ScalarDistribution.cpp" />
+    <ClCompile Include="src\Particles\VectorDistribution.cpp" />
     <ClCompile Include="src\Render\RenderMath.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>

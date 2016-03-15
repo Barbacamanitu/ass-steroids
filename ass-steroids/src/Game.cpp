@@ -31,7 +31,7 @@ void Game::mainLoop()
 
         processEvents();
 
-        while(mTimestep.canUpdate())
+		while (mTimestep.canUpdate())
             update(mTimestep.TIMESTEP);
 
         render(mTimestep.getAlpha());
@@ -44,7 +44,7 @@ void Game::render(const float alpha)
 {
     gameWindow.clear();
     sf::RenderStates states;
-	ship.Draw(gameWindow, states);
+	ship.Draw(gameWindow, states, alpha);
     gameWindow.display();
 }
 

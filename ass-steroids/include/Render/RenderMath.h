@@ -9,6 +9,7 @@ class RenderMath
         virtual ~RenderMath();
         static sf::Transform InterpolateTransforms(sf::Vector2f oldPosition, sf::Vector2f newPosition, float oldAngle, float newAngle, sf::Vector2f oldScale, sf::Vector2f newScale, float interpolation);
         static float InterpolateAngles(float oldAngle,float newAngle, float interpolation);
+
     protected:
     private:
 };
